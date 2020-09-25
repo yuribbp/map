@@ -13,9 +13,16 @@ public class Program {
 		cookies.put("email", "maria@gmail.com");
 		cookies.put("phone", "99711122");
 
+		System.out.println("ALL COOKIES BEFORE:");
+		for (String key : cookies.keySet()) {
+			System.out.println(key + ": " + cookies.get(key));
+		}
+		
 		cookies.remove("email");
+		cookies.put("phone", "99711133"); //SOBRESCREVE NOVO VALOR
 
-		System.out.println("ALL COOKIES:");
+		System.out.println();
+		System.out.println("ALL COOKIES AFTER:");
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
 		}
