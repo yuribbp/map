@@ -22,6 +22,9 @@ public class Program {
 		cookies.put("phone", "99711133"); //SOBRESCREVE NOVO VALOR
 
 		System.out.println();
+		System.out.println("Contains 'phone' key: " + cookies.containsKey("phone"));
+		
+		System.out.println();
 		System.out.println("ALL COOKIES AFTER:");
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
