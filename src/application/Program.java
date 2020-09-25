@@ -31,6 +31,9 @@ public class Program {
 		System.out.println("Email: " + cookies.get("email"));
 
 		System.out.println();
+		System.out.println("Size: " + cookies.size());
+
+		System.out.println();
 		System.out.println("ALL COOKIES AFTER:");
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
