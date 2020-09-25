@@ -23,7 +23,10 @@ public class Program {
 
 		System.out.println();
 		System.out.println("Contains 'phone' key: " + cookies.containsKey("phone"));
-		
+
+		System.out.println();
+		System.out.println("Phone number: " + cookies.get("phone"));
+
 		System.out.println();
 		System.out.println("ALL COOKIES AFTER:");
 		for (String key : cookies.keySet()) {
