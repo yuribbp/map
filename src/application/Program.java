@@ -17,7 +17,10 @@ public class Program {
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
 		}
-		
+
+		System.out.println();
+		System.out.println("Size: " + cookies.size());
+
 		cookies.remove("email");
 		cookies.put("phone", "99711133"); //SOBRESCREVE NOVO VALOR
 
