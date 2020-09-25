@@ -28,6 +28,9 @@ public class Program {
 		System.out.println("Phone number: " + cookies.get("phone"));
 
 		System.out.println();
+		System.out.println("Email: " + cookies.get("email"));
+
+		System.out.println();
 		System.out.println("ALL COOKIES AFTER:");
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
